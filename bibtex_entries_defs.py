@@ -21,19 +21,23 @@
 # SOFTWARE.
 
 
-# <li>Bercovici, B., & Mcmahon, J. W. (2019). Inertia Parameter Statistics of An Uncertain Small Body Shape (Under Review). <i>Icarus</i>.<br />
-#         [expand title="BibTex" style="small"] [box color="lightgray" style="filled" float="none"]<br />
-#         @article{Bercovicib,<br />
-#         author = {Bercovici, Benjamin and Mcmahon, Jay W.},<br />
-#         file = {:Users/bbercovici/GDrive/CUBoulder/Research/papers/shape{\_}uncertainty/R0/main{\_}document.pdf:pdf},<br />
-#         journal = {Icarus},<br />
-#         keywords = {bezier triangles,inertia,shape model,small body,uncertainty},<br />
-#         title = {{Inertia Parameter Statistics of An Uncertain Small Body Shape (Under Review)}},<br />
-#         year = {2019}<br />
-#         } [/box]<font face="monospace"> </font>[/expand]</li>
-
 from bibtexparser.bibdatabase import as_text
 import bibtexparser
+
+
+#############################################
+# \name : bibtex_entries_def.py
+# \author : Benjamin Bercovici
+# \date : 02/10/19
+# \brief : functions used to populated HTML entries 
+# for various publication types
+# \dependencies:
+# - bibtexparser must be installed.
+# it can be retrieved through `pip install bibtexparser`
+# \usage : Do not use the functions in this file as is.
+# They should be called by biblio_export.py
+#############################################
+
 
 def sort_by_year(entry):
     try:
