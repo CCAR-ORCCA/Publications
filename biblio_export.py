@@ -26,6 +26,22 @@ from bibtex_entries_defs import *
 import glob, os
 
 
+#############################################
+# \name : biblio_export.py
+# \author : Benjamin Bercovici
+# \date : 02/10/19
+# \brief : a python script that parses .bib
+# files to produce a structured HTML page 
+# listing the different publications sorted by type/year
+# \dependencies:
+# - bibtexparser must be installed.
+# it can be retrieved through `pip install bibtexparser`
+# - bibtex_entries_defs.py 
+# \usage : Have all the .bib files of interest in 
+# the same folder as biblio_export.py and run the script
+#############################################
+
+
 # Creating empty containers
 journal_articles = []
 conference_proceedings = []
@@ -38,7 +54,10 @@ for file in glob.glob("*.bib"):
     # Reading from the bib file storing all of ORCCA's publications to date
     with open(file) as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
-    print (bib_database.entries)
+
+    # Uncomment this to see the content of each bib file
+    # print (bib_database.entries)
+
     # Put each publication in the correct category
     for entry in bib_database.entries:
         if entry["ENTRYTYPE"] == "inproceedings":
@@ -56,7 +75,7 @@ for file in glob.glob("*.bib"):
 conference_proceedings = sorted(conference_proceedings, key = sort_by_year)[::-1] 
 journal_articles = sorted(journal_articles, key = sort_by_year)[::-1] 
 misc = sorted(misc, key = sort_by_year)[::-1] 
-theses = sorted(theses, key = sort_by_year) [::-1]
+theses = sorted(theses, key = sort_by_year)[::-1]
 
 
 # Lists any entry whose "ENTRYTYPE" is not amongst ["inproceedings" ,"article", "misc", "phdthesis"]
