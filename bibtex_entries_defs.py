@@ -249,6 +249,7 @@ def create_journal_entry(entry):
             formatted_entry += " (" + str(entry['Year']) + "). "
         except KeyError:
             print("No year found in " + str(entry["ID"]))
+            formatted_entry += " (no year). "
 
     # Title
     formatted_entry +=  entry["title"].replace("{","").replace("}","")
@@ -303,6 +304,7 @@ def create_proceedings_entry(entry):
         try:
             formatted_entry += " (" + str(entry['Year']) + "). "
         except KeyError:
+            formatted_entry += " (no year). "
             print("No year found in " + str(entry["ID"]))
 
     # Title
@@ -336,10 +338,10 @@ def create_thesis_entry(entry):
 
     # Year
     try:
-        formatted_entry += "(" + str(entry['year']) + "). "
+        formatted_entry += " (" + str(entry['year']) + "). "
     except KeyError:
         try:
-            formatted_entry += "(" + str(entry['Year']) + "). "
+            formatted_entry += " (" + str(entry['Year']) + "). "
         except KeyError:
             print("No year found in " + str(entry["ID"]))
 
@@ -365,10 +367,10 @@ def create_misc_entry(entry):
 
     # Year
     try:
-        formatted_entry += "(" + str(entry['year']) + "). "
+        formatted_entry += " (" + str(entry['year']) + "). "
     except KeyError:
         try:
-            formatted_entry += "(" + str(entry['Year']) + "). "
+            formatted_entry += " (" + str(entry['Year']) + "). "
         except KeyError:
             print("No year found in " + str(entry["ID"]))
 

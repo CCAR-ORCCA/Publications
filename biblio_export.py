@@ -51,7 +51,7 @@ theses = []
 
 for file in glob.glob("*.bib"):
     
-    # Reading from the bib file storing all of ORCCA's publications to date
+    # Reading from each of the .bib files that were found
     with open(file) as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
 
