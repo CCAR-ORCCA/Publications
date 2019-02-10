@@ -88,7 +88,7 @@ def proceedings_latex_entry_to_html_box(entry):
     # Finish writing string
     string += "}\n"
    
-    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]"
     return string
 
 def journal_latex_entry_to_html_box(entry):
@@ -148,7 +148,7 @@ def journal_latex_entry_to_html_box(entry):
     # Finish writing string
     string += "}\n"
    
-    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]"
     return string
 
 def thesis_latex_entry_to_html_box(entry):
@@ -188,7 +188,7 @@ def thesis_latex_entry_to_html_box(entry):
     # Finish writing string
     string += "}\n"
    
-    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]"
     return string
 
 def misc_latex_entry_to_html_box(entry):
@@ -228,7 +228,7 @@ def misc_latex_entry_to_html_box(entry):
     # Finish writing string
     string += "}\n"
    
-    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]"
     return string
 
 
@@ -284,7 +284,7 @@ def create_journal_entry(entry):
     formatted_entry += journal_latex_entry_to_html_box(entry)
 
     # Closing item
-    formatted_entry += "</li>\n"
+    formatted_entry += "</li><br />\n"
 
 
     return formatted_entry
@@ -323,7 +323,7 @@ def create_proceedings_entry(entry):
     formatted_entry += proceedings_latex_entry_to_html_box(entry)
 
     # Closing item
-    formatted_entry += "</li>\n"
+    formatted_entry += "</li><br />\n"
 
 
     return formatted_entry
@@ -352,7 +352,7 @@ def create_thesis_entry(entry):
     formatted_entry += thesis_latex_entry_to_html_box(entry)
 
     # Closing item
-    formatted_entry += "</li>\n"
+    formatted_entry += "</li><br />\n"
 
 
     return formatted_entry
@@ -390,7 +390,7 @@ def create_misc_entry(entry):
     formatted_entry += misc_latex_entry_to_html_box(entry)
 
     # Closing item
-    formatted_entry += "</li>\n"
+    formatted_entry += "</li><br />\n"
 
 
     return formatted_entry
