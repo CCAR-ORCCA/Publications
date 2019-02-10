@@ -1,0 +1,406 @@
+@inproceedings{brack2019asteroid,
+        title={Asteroid Manipulation With Active Boulder Removal},
+        author={Brack, Daniel N. and McMahon, Jay W.},
+        booktitle={2019 AAS/AIAA Space Flight Mechanics Meeting},
+        number={19-427},
+        year={2019}
+}
+@inproceedings{brack2018natural,
+	author = {Brack, Daniel N. and McMahon, Jay W.},
+	title = {Natural Dynamical Processes on Fast Rotating Asteroids},
+	booktitle = {69th International Astronautical Congress (IAC)},
+	year = {2018},
+	month = oct,
+	organization = {International Astronautical Federation},
+	paper = {IAC-18-C1.2.7},
+}
+@inproceedings{brack2018estimation,
+        author = {Brack, Daniel N. and McMahon, Jay W. and Scheeres, Daniel J. and French, Andrew S.},
+        title = {Estimation Evaluation of the Radio Science Phase of the OSIRIS-REx Mission},
+        booktitle = {69th International Astronautical Congress (IAC)},
+        year = {2018},
+        month = oct,
+        organization = {International Astronautical Federation},
+        paper = {IAC-18-C1.9.8},
+}
+@inproceedings{brack2018investigation,
+	title={An Investigation of Natural Dynamical Processes on Asteroid Surfaces Using a Combined Asteroid Surface-Boulders Model},
+	author={Brack, Daniel N. and McMahon, Jay W.},
+	booktitle={2018 AAS/AIAA Astrodynamics Specialist Conference},
+	number={18-413},
+	year={2018}
+}
+@inproceedings{brack2018dynamical,
+	title={Dynamical Behavior of an Asteroid Undergoing Material Removal},
+	author={Brack, Daniel N. and McMahon, Jay W.},
+	booktitle={2018 AIAA/AAS Space Flight Mechanics Meeting},
+	pages={0954},
+	year={2018}
+}
+@article{Venigalla,
+author = {Venigalla, Chandrakanth and Baresi, Nicola and Aziz, Jonathan D. and Bercovici, Benjamin and Brack, Daniel N. and Dahir, Andrew and {De Smet}, Stijn and Fulton, JoAnna and Pellegrino, Marielle M. and Van wal, Stefaan},
+journal = {Journal of Spacecraft and Rockets},
+title = {{The Near-Earth Asteroid Characterization and Observation (NEACO) Mission to Asteroid (469219) 2016 HO3}}
+}
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Ann Dietrich at 2019-02-02 14:28:44 -0800 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@article{Dietrich2015b,
+	Author = {Ann Dietrich, Kathryn Davis, Jeffrey Parker},
+	Date-Added = {2019-02-02 22:27:22 +0000},
+	Date-Modified = {2019-02-02 22:28:41 +0000},
+	Doi = {https://doi.org/10.1016/j.asr.2015.09.030},
+	Journal = {Advances in Space Research},
+	Number = {11},
+	Pages = {2595-2611},
+	Title = {Ascent trajectories from the lunar far-side to Earth--Moon L2 halo orbits},
+	Volume = {56},
+	Year = {2015}}
+
+@inproceedings{Dietrich2015,
+	Address = {Vail, CO},
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Booktitle = {AIAA/AAS Astrodynamics Specialist Conference},
+	Date-Added = {2019-02-02 22:25:39 +0000},
+	Date-Modified = {2019-02-02 22:25:39 +0000},
+	Month = {August},
+	Number = {15-736},
+	Series = {AAS},
+	Title = {Autonomous Observation Planning with Flash LIDAR around Small Bodies},
+	Year = {2015}}
+
+@inproceedings{dietrich:2014,
+	Address = {San Diego, CA},
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Booktitle = {AIAA/AAS Astrodynamics Specialist Conference},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	Month = {August},
+	Title = {Asteroid Proximity Navigation using Flash LIDAR},
+	Year = {2014}}
+
+@inproceedings{Dietrich2016,
+	Address = {Breckenridge, CO},
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Booktitle = {AAS Guidance and Control Conference},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	File = {:Users/annabelle/Documents/a{\_}docs/CU/LIDAR/ReferencePapers/Mario2016{\_}AAS-16-087-OSIRIS-REx{\_}Feature{\_}Correlation{\_}Robustness.pdf:pdf},
+	Month = {February},
+	Number = {AAS 16-017},
+	Title = {Error Sensitivies for Flash LIDAR Based Relative Navigation around Small Bodes},
+	Year = {2016}}
+
+@article{Dietrich2016b,
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	Doi = {http://arc.aiaa.org/doi/abs/10.2514/1.G000615},
+	Journal = {Journal of Guidance, Control, and Dynamics},
+	Month = {Accessed Dec 30, 2016},
+	Title = {Orbit Determination using Flash Light Detection and Ranging (LIDAR) around Small Bodies},
+	Year = {2016},
+	Bdsk-Url-1 = {http://arc.aiaa.org/doi/abs/10.2514/1.G000615}}
+
+@inproceedings{Dietrich2017,
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Booktitle = {AAS/AIAA Space Flight Mechanics Meeting},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	Month = {February},
+	Number = {17-276},
+	Series = {AAS},
+	Title = {Orbit Determination with Least-Squares and Flash Lidar Measurements in Proximity to Small Bodies},
+	Year = {2017}}
+
+@inproceedings{Dietrich2017b,
+	Address = {Stevenson, Washingtons},
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Booktitle = {AAS Astrodynamics Specialist Conference},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	Month = {August},
+	Number = {AAS 17-825},
+	Title = {Filter Robustness of Flash Lidar Based Navigation around Small Bodies},
+	Year = {2017}}
+
+@phdthesis{Dietrich2017t,
+	Author = {Dietrich, Ann},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	Month = {August},
+	School = {University of Colorado, Boulder},
+	Title = {Supporting Autonomous Navigation with Flash Lidar Images in Proximity to Small Celestial Bodies},
+	Year = {2017}}
+
+@article{Dietrich2018,
+	Author = {Dietrich, Ann and McMahon, Jay W},
+	Date-Added = {2019-02-02 22:22:25 +0000},
+	Date-Modified = {2019-02-02 22:22:25 +0000},
+	Doi = {https://doi.org/10.2514/1.G003023},
+	Journal = {Journal of Guidance, Control, and Dynamics},
+	Month = {July},
+	Number = {10},
+	Pages = {2163-2184},
+	Title = {Robust Orbit Determination with Flash Lidar Around Small Bodies},
+	Volume = {41},
+	Year = {2018},
+	Bdsk-Url-1 = {https://doi.org/10.2514/1.G003023}}
+@inproceedings{Geeraert2015a,
+author = {Geeraert, Jeroen and Nandi, Sumita},
+booktitle = {21st Improving Space Operations Workshop},
+title = {{Quicklook: A Testbed for an Automated Orbit Determination System using the Cassini Spacecraft}},
+year = {2015}
+}
+@inproceedings{Geeraert2017d,
+author = {Geeraert, Jeroen L and Mcmahon, Jay W},
+booktitle = {Advanced Maui Optical and Space Surveillance Technologies Conference},
+file = {:Users/jeroen/Library/Application Support/Mendeley Desktop/Downloaded/Geeraert, Mcmahon - 2017 - Relative Orbit Determination of Multiple Satellites Using Double Differenced Measurements.pdf:pdf},
+title = {{Relative Orbit Determination of Multiple Satellites Using Double Differenced Measurements}},
+year = {2017}
+}
+@inproceedings{Geeraert2017,
+author = {Geeraert, Jeroen L and Mcmahon, Jay W and Hesar, Siamak G},
+booktitle = {AIAA/AAS Spaceflight Mechanics Meeting},
+file = {:Users/jeroen/Library/Application Support/Mendeley Desktop/Downloaded/Geeraert, Mcmahon, Hesar - 2017 - Small Body Navigation and Gravity Estimation Using Angle and FDOA Observables.pdf:pdf},
+pages = {1--18},
+title = {{Small Body Navigation and Gravity Estimation Using Angle and FDOA Observables}},
+year = {2017}
+}
+@article{Geeraert2016,
+author = {Geeraert, Jeroen L. and Mcmahon, Jay W and Jones, Brandon A},
+file = {:Users/jeroen/Library/Application Support/Mendeley Desktop/Downloaded/Geeraert, Mcmahon, Jones - 2016 - Orbit Determination Observability of the Dual-Satellite Geolocation System with TDOA and FDOA.pdf:pdf},
+isbn = {9781624104459},
+journal = {AIAA/AAS Astrodynamics Specialist Conference},
+pages = {1--21},
+title = {{Orbit Determination Observability of the Dual-Satellite Geolocation System with TDOA and FDOA}},
+year = {2016}
+}
+@article{Geeraert2017b,
+author = {Geeraert, Jeroen L and Mcmahon, Jay W},
+file = {:Users/jeroen/Library/Application Support/Mendeley Desktop/Downloaded/Geeraert, Mcmahon - Unknown - Dual-Satellite Geolocation with Ephemeris Correction and Uncertainty Mapping.pdf:pdf},
+journal = {IEEE Transactions on Aerospace and Electronic Systems},
+pages = {1--13},
+title = {{Dual-Satellite Geolocation with Ephemeris Correction and Uncertainty Mapping}}
+}
+@article{Geeraert2018,
+author = {Geeraert, Jeroen L. and McMahon, Jay W.},
+doi = {10.2514/1.G002921},
+file = {:Users/jeroen/Documents/School/CUBoulder/Research/Literature/Square-Root Unscented Schmidt–Kalman Filter.pdf:pdf},
+isbn = {0029-5493},
+issn = {0731-5090},
+journal = {Journal of Guidance, Control, and Dynamics},
+number = {1},
+pages = {280--287},
+title = {{Square-Root Unscented Schmidt–Kalman Filter}},
+url = {https://arc.aiaa.org/doi/10.2514/1.G002921},
+volume = {41},
+year = {2018}
+}
+@inproceedings{Geeraert2015,
+author = {Geeraert, Jeroen L. and Jones, Brandon A. and Mcmahon, Jay W.},
+booktitle = {AIAA/AAS Astrodynamics Specialist Conference},
+file = {:Users/jeroen/Library/Application Support/Mendeley Desktop/Downloaded/Geeraert, Jones, Mcmahon - 2015 - Improving Geolocation Accuracy Through Refined Satellite Ephemeris Estimation in an Ill-Conditioned.pdf:pdf},
+pages = {1--20},
+title = {{Improving Geolocation Accuracy Through Refined Satellite Ephemeris Estimation in an Ill-Conditioned}},
+year = {2015}
+}
+
+@inproceedings{Oguri2019,
+address = {Ka'anapali, HI},
+author = {Oguri, Kenshiro and Lantoine, Gregory and Hart, Bill and Mcmahon, Jay W.},
+booktitle = {AAS/AIAA Space Flight Mechanics Meeting},
+file = {:Users/KENSHIRO/Dropbox/for{\_}research/Mendeley/Oguri et al/Oguri et al. - 2019 - Science Orbit Design with Frozen Beta angle Theory and Application to Psyche mission.pdf:pdf},
+pages = {1--15},
+title = {{Science Orbit Design with Frozen Beta angle: Theory and Application to Psyche mission}},
+year = {2019}
+}
+@inproceedings{Oguri2019a,
+address = {Ka'anapali, HI},
+author = {Oguri, Kenshiro and McMahon, Jay W.},
+booktitle = {AAS/AIAA Space Flight Mechanics Meeting},
+file = {:Users/KENSHIRO/Dropbox/for{\_}research/Mendeley/Oguri, McMahon/Oguri, McMahon - 2019 - SRP-based Orbit Control with Application to Orbit Stationkeeping at Small Bodies.pdf:pdf},
+pages = {1--17},
+title = {{SRP-based Orbit Control with Application to Orbit Stationkeeping at Small Bodies}},
+year = {2019}
+}
+@inproceedings{Oguri2018a,
+address = {Snowbird, UT},
+author = {Oguri, Kenshiro and McMahon, Jay W.},
+booktitle = {AAS/AIAA Astrodynamics Specialist Conference},
+file = {:Users/KENSHIRO/Dropbox/for{\_}research/Mendeley/Oguri, McMahon/Oguri, McMahon - 2018 - SRP-based Orbit Control with Application to Small Body Landing.pdf:pdf},
+pages = {1--19},
+title = {{SRP-based Orbit Control with Application to Small Body Landing}},
+year = {2018}
+}
+@inproceedings{MorettoSFM2019,
+author = {Moretto, Mark and McMahon, Jay},
+booktitle = {29th AAS/AIAA Space Flight Mechanics Meeting, Ka'anapali, HI},
+pages = {1--18},
+number={19-375},
+title = {Attitude Dependent Evolution of Orbits About Active Comets},
+year = {2019}
+}
+
+@inproceedings{MorettoASC2018,
+author = {Moretto, Mark and McMahon, Jay},
+booktitle = {AAS/AIAA Astrodynamics Specialist Conference, Snowbird, UT},
+pages = {1--20},
+number={18-389},
+title = {On the Evolution of Orbits About Active Comets},
+year = {2018}
+}@article{Bercovicib,
+author = {Bercovici, Benjamin and Mcmahon, Jay W.},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/papers/shape{\_}uncertainty/R0/main{\_}document.pdf:pdf},
+journal = {Icarus},
+keywords = {bezier triangles,inertia,shape model,small body,uncertainty},
+title = {{Inertia Parameter Statistics of An Uncertain Small Body Shape (Under Review)}},
+year = {2019}
+}
+@inproceedings{Bercovici2019,
+author = {Bercovici, Benjamin and Mcmahon, Jay W.},
+booktitle = {29th AAS/AIAA Space Flight Mechanics Meeting, Ka'anapali, HI},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/hawai{\_}2019/paper/paper.pdf:pdf},
+pages = {1--21},
+title = {{Initial Orbit Determination About Small Bodies Using Flash Lidar And Rigid Transform Invariants}},
+year = {2019}
+}
+@inproceedings{Bercovici2019d,
+author = {Bercovici, Benjamin and McMahon, Jay W},
+booktitle = {29th AAS/AIAA Space Flight Mechanics Meeting},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/hawai{\_}2019/paper/paper.pdf:pdf},
+pages = {1--21},
+title = {{Initial Orbit Determination about Small Bodies Using Flash LIDAR and Rigid Transform Invariants}},
+year = {2019}
+}
+@article{Bercovici2019c,
+author = {Bercovici, Benjamin and Mcmahon, Jay W},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/papers/UQ{\_}NAV{\_}JGCD/R1/main{\_}document.pdf:pdf},
+journal = {Journal of Guidance, Control, and Dynamics},
+title = {{Robust Autonomous Small Body Shape Reconstruction and Relative Navigation using Range Images (Under Review)}},
+year = {2019}
+}
+@misc{Bercovici2019b,
+author = {Bercovici, Benjamin and McMahon, Jay},
+booktitle = {GitHub},
+title = {{SBGAT: The Small Body Geophysical Analysis Tool}},
+year = {2019}
+}
+@article{Venigalla,
+author = {Venigalla, Chandrakanth and Baresi, Nicola and Aziz, Jonathan D. and Bercovici, Benjamin and Brack, Daniel N. and Dahir, Andrew and {De Smet}, Stijn and Fulton, JoAnna and Pellegrino, Marielle M. and Van wal, Stefaan},
+journal = {Journal of Spacecraft and Rockets},
+title = {{The Near-Earth Asteroid Characterization and Observation (NEACO) Mission to Asteroid (469219) 2016 HO3 (In Print)}},
+year = {2019}
+}
+@inproceedings{Bercovici2018a,
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+booktitle = {2018 AAS/AIAA Astrodynamics Specialist Conference},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/snowbird{\_}2018/paper/paper.pdf:pdf},
+pages = {1--20},
+title = {{A Consistent Small Body Navigation Filter Using Flash-Lidar Data and Bezier Triangles}},
+year = {2018}
+}
+@inproceedings{Bercovici2018,
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+booktitle = {Proceedings of the 41st Annual Guidance and Control Conference},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/GNSKi{\_}2018/paper/paper.pdf:pdf},
+title = {{Autonomous Shape Determination Using Flash-Lidar Observations and Bezier patches}},
+year = {2018}
+}
+@inproceedings{Bercovici2018b,
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+booktitle = {50th Meeting of the American Astronomical Society Division for Planetary Science},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/DPS{\_}2018/presentation/presentation.pdf:pdf},
+title = {{Inertia Parameter Statistics of An Uncertain Small Body Shape}},
+year = {2018}
+}
+@inproceedings{Bercovici2017b,
+address = {San Antonio},
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+booktitle = {27th AAS/AIAA Space Flight Mechanics Meeting},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/san{\_}antonio{\_}2017/san{\_}antonio{\_}paper{\_}2/registration{\_}mrp{\_}final.pdf:pdf},
+pages = {1--20},
+title = {{An improved MRP-based Iterative Closest Point-To-Plane Algorithm}},
+year = {2017}
+}
+@inproceedings{Bercovici2017c,
+address = {San Antonio},
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+booktitle = {Proceedings of the 27th AAS/AIAA Space Flight Mechanics Meeting},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/san{\_}antonio{\_}2017/san{\_}antonio{\_}paper{\_}1/aspen{\_}final.pdf:pdf},
+pages = {1--14},
+title = {{Autonomous Shape Determination Using Flash-Lidar Observations}},
+year = {2017}
+}
+@inproceedings{Bercovici2017a,
+address = {Stevenson},
+author = {Bercovici, Benjamin and Dietrich, Ann and McMahon, Jay W.},
+booktitle = {Proceedings of the 2017 AAS/AIAA Astrodynamics Specialist Conference},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/washington{\_}2017/paper/paper.pdf:pdf},
+pages = {1--20},
+title = {{Autonomous Shape Estimation and Navigation About Small Bodies Using Lidar Observations}},
+year = {2017}
+}
+@inproceedings{Bercovici2017,
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+booktitle = {Proceedings of the 31st ISTS , Matsuyama, Japan},
+file = {:Users/bbercovici/GDrive/CUBoulder/Research/conferences/japan{\_}2017/paper/paper.pdf:pdf},
+keywords = {filtering,lidar,observability,shape determination},
+title = {{Improved Shape Determination for Autonomous State Estimation}},
+year = {2017}
+}
+@article{Bercovici2017d,
+author = {Bercovici, Benjamin and McMahon, Jay W.},
+doi = {10.2514/1.G002787},
+file = {:Users/bbercovici/Documents/berco2017.pdf:pdf},
+journal = {Journal of Guidance, Control, and Dynamics},
+number = {12},
+title = {{Point-Cloud Processing Using Modified Rodrigues Parameters for Relative Navigation}},
+volume = {40},
+year = {2017}
+}
+@inproceedings{Kuettel2017,
+author = {Kuettel, Don and Vanzella, Alessandro and Van den Broeck, Michael and McMahon, Jay W},
+booktitle = {Proceedings of the 27th AAS/AIAA Spaceflight Mechanics Meeting},
+title = {{An Analysis of Low-Thrust Orbital Maneuvers Around Small Bodies}},
+year = {2017}
+}
+
+@inproceedings{Kuettel2019,
+author = {Kuettel, Don and McMahon, Jay W},
+booktitle = {Proceedings of the 29th AAS/AIAA Spaceflight Mechanics Meeting},
+title = {{An Analysis of Low-Thrust Guidance Algorithms Around Small Bodies}},
+year = {2019}
+}
+@inproceedings{Sipowa,
+author = {Sipowa, Hermann Kaptui and Mcmahon, Jay},
+booktitle = {2018 AAS/AIAA Astrodynamics Specialist Conference},
+file = {:Users/hermannkaptuisipowa/Library/Application Support/Mendeley Desktop/Downloaded/Sipowa, Mcmahon - Unknown - RADIATION PRESSURE ON RELATIVE MOTION USING A LINEARIZED REPRESENTATION OF RELATIVE ORBITAL ELEMENTS.pdf:pdf},
+pages = {1--21},
+title = {{First Order Approximation of the Effects of Solar Radiation Pressure On Relative Motion using a Linearized Representation of Relative Orbital Elements}},
+year = {2018}}
+
+@inproceedings{Bury2018a,
+author = {Bury, Luke and McMahon, Jay},
+booktitle = {AAS Astrodynamics Specialists Conference, Snowbird, UT},
+file = {:Users/lukebury/CU{\_}Google{\_}Drive/Papers{\_}Mendeley/The Effect of Zonal Harmonics in the Circular Restricted Thre Body Problem Near the Secondary Body.pdf:pdf},
+pages = {1--17},
+title = {{The Effect of Zonal Harmonics in the Circular Restricted Thre Body Problem Near the Secondary Body.pdf}},
+year = {2018}
+}
+@inproceedings{Bury2019,
+author = {Bury, Luke and Mcmahon, Jay},
+booktitle = {AAS Astrodynamics Specialists Conference, Maui, HI},
+file = {:Users/lukebury/CU{\_}Google{\_}Drive/Papers{\_}Mendeley/Low-Energy Trajectories As Staging Points for Landing on the Secondary Body in the CR3BP.pdf:pdf},
+pages = {1--16},
+title = {{Low-Energy Trajectories As Staging Points for Landing on the Secondary Body in the Circular Restriscted Three-Body Problem}},
+year = {2019}
+}
