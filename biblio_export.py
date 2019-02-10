@@ -38,7 +38,7 @@ for file in glob.glob("*.bib"):
     # Reading from the bib file storing all of ORCCA's publications to date
     with open(file) as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
-
+    print (bib_database.entries)
     # Put each publication in the correct category
     for entry in bib_database.entries:
         if entry["ENTRYTYPE"] == "inproceedings":

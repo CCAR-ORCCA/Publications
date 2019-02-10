@@ -36,26 +36,194 @@ from bibtexparser.bibdatabase import as_text
 import bibtexparser
 
 def sort_by_year(entry):
-	try:
-		return int(entry["year"])
-	except KeyError:
-		try:
+    try:
+        return int(entry["year"])
+    except KeyError:
+        try:
 
-			return int(entry["Year"])
-		except KeyError:
-			return 1970
+            return int(entry["Year"])
+        except KeyError:
+            return 1970
 
-def latex_entry_to_html_box(entry):
+def proceedings_latex_entry_to_html_box(entry):
     string = "<br />[expand title=\"BibTex\" style=\"small\"] [box color=\"lightgray\" style=\"filled\" float=\"none\"]<br />"
 
-    entry_with_breaks = entry
+    # Get all keys in entry
+    entry_keys = list(entry.keys())
 
-    for key in entry_with_breaks:
-        entry_with_breaks[key] += "<br />"
+    # Start writing string
+    string += "@" + entry["ENTRYTYPE"] + "{"
+
+    string += entry["ID"] + ",<br />"
     
-    string += as_text(entry)
+    try:
+        string += "Address = {" + entry["address"] + "},<br />"
+    except KeyError:
+        None
 
+    try:
+        string += " title = {" + entry["title"] + "},<br />"
+    except KeyError:
+        None
 
+    try:
+        string += " Booktitle = {" + entry["booktitle"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "Year = {" + entry["year"] + "},<br />"
+    except KeyError:
+        try:
+            string += "Year = {" + entry["Year"] + "},<br />"
+        except KeyError:
+            None
+
+    string += " Author = {" + entry["author"] + "}<br />"
+
+    # Finish writing string
+    string += "}\n"
+   
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    return string
+
+def journal_latex_entry_to_html_box(entry):
+    string = "<br />[expand title=\"BibTex\" style=\"small\"] [box color=\"lightgray\" style=\"filled\" float=\"none\"]<br />"
+
+    # Get all keys in entry
+    entry_keys = list(entry.keys())
+
+    # Start writing string
+    string += "@" + entry["ENTRYTYPE"] + "{"
+
+    string += entry["ID"] + ",<br />"
+    
+    try:
+        string += "Title = {" + entry["title"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "Volume = {" + entry["volume"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "Keywords = {" + entry["keywords"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "Issue = {" + entry["number"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "Journal = {" + entry["journal"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "DOI = {" + entry["doi"] + "},<br />"
+    except KeyError:
+        try:
+            string += "DOI = {" + entry["DOI"] + "},<br />"
+        except KeyError:
+            None
+
+    try:
+        string += "Year = {" + entry["year"] + "},<br />"
+    except KeyError:
+        try:
+            string += "Year = {" + entry["Year"] + "},<br />"
+        except KeyError:
+            None
+
+    string += " Author = {" + entry["author"] + "}<br />"
+
+    # Finish writing string
+    string += "}\n"
+   
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    return string
+
+def thesis_latex_entry_to_html_box(entry):
+    string = "<br />[expand title=\"BibTex\" style=\"small\"] [box color=\"lightgray\" style=\"filled\" float=\"none\"]<br />"
+
+    # Get all keys in entry
+    entry_keys = list(entry.keys())
+
+    # Start writing string
+    string += "@" + entry["ENTRYTYPE"] + "{"
+
+    string += entry["ID"] + ",<br />"
+    
+    try:
+        string += " title = {" + entry["title"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "DOI = {" + entry["doi"] + "},<br />"
+    except KeyError:
+        try:
+            string += "DOI = {" + entry["DOI"] + "},<br />"
+        except KeyError:
+            None
+
+    try:
+        string += "Year = {" + entry["year"] + "},<br />"
+    except KeyError:
+        try:
+            string += "Year = {" + entry["Year"] + "},<br />"
+        except KeyError:
+            None
+
+    string += " Author = {" + entry["author"] + "}<br />"
+
+    # Finish writing string
+    string += "}\n"
+   
+    string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
+    return string
+
+def misc_latex_entry_to_html_box(entry):
+    string = "<br />[expand title=\"BibTex\" style=\"small\"] [box color=\"lightgray\" style=\"filled\" float=\"none\"]<br />"
+
+    # Get all keys in entry
+    entry_keys = list(entry.keys())
+
+    # Start writing string
+    string += "@" + entry["ENTRYTYPE"] + "{"
+
+    string += entry["ID"] + ",<br />"
+    
+    try:
+        string += " title = {" + entry["title"] + "},<br />"
+    except KeyError:
+        None
+
+    try:
+        string += "URL = {" + entry["url"] + "},<br />"
+    except KeyError:
+        try:
+            string += "URL = {" + entry["URL"] + "},<br />"
+        except KeyError:
+            None
+
+    try:
+        string += "Year = {" + entry["year"] + "},<br />"
+    except KeyError:
+        try:
+            string += "Year = {" + entry["Year"] + "},<br />"
+        except KeyError:
+            None
+
+    string += " Author = {" + entry["author"] + "}<br />"
+
+    # Finish writing string
+    string += "}\n"
+   
     string += "[/box]<font face=\"monospace\"> </font>[/expand]</li><br />"
     return string
 
@@ -84,18 +252,31 @@ def create_journal_entry(entry):
     # Journal 
     formatted_entry += ". <i>" + entry["journal"] +  "</i>"
 
+    # Volume 
+    try:
+        formatted_entry += ", Volume " + entry["volume"]
+    except KeyError:
+        print ("No volume in " + str(entry["ID"]))
+  
+    # Issue
+    try:
+        formatted_entry += ", Issue " + entry["number"]
+    except KeyError:
+        print ("No number in " + str(entry["ID"]))
+
+
     # DOI
     try:
-        formatted_entry += " " + entry["doi"]
+        formatted_entry += " (" + entry["doi"] + ")"
     except KeyError:
         try:
-            formatted_entry += " " + entry["DOI"]
+            formatted_entry += " (" + entry["DOI"] + ")"
         except KeyError:
             print("No doi found in " + str(entry["ID"]))
 
 
     # Bibtex box
-    formatted_entry += latex_entry_to_html_box(entry)
+    formatted_entry += journal_latex_entry_to_html_box(entry)
 
     # Closing item
     formatted_entry += "</li>\n"
@@ -133,7 +314,7 @@ def create_proceedings_entry(entry):
         print ("No address found in " + str(entry["ID"]))
 
     # Bibtex box
-    formatted_entry += latex_entry_to_html_box(entry)
+    formatted_entry += proceedings_latex_entry_to_html_box(entry)
 
     # Closing item
     formatted_entry += "</li>\n"
@@ -162,7 +343,7 @@ def create_thesis_entry(entry):
     formatted_entry += " " + entry["title"].replace("{","").replace("}","")
 
     # Bibtex box
-    formatted_entry += latex_entry_to_html_box(entry)
+    formatted_entry += thesis_latex_entry_to_html_box(entry)
 
     # Closing item
     formatted_entry += "</li>\n"
@@ -189,7 +370,7 @@ def create_misc_entry(entry):
 
     # Title
     formatted_entry += " " + entry["title"].replace("{","").replace("}","")
- 	
+     
     # Url
     try:
         formatted_entry += " (" + str(entry['url']) + "). "
@@ -200,7 +381,7 @@ def create_misc_entry(entry):
             print("No url found in " + str(entry["ID"]))
 
     # Bibtex box
-    formatted_entry += latex_entry_to_html_box(entry)
+    formatted_entry += misc_latex_entry_to_html_box(entry)
 
     # Closing item
     formatted_entry += "</li>\n"
