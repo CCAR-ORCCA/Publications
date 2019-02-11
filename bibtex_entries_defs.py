@@ -239,7 +239,7 @@ def create_journal_entry(entry):
     formatted_entry = "\n<li>"
 
     # Authors
-    formatted_entry += entry["author"].replace(" and ",", ")
+    formatted_entry += entry["author"]
 
     # Year
     try:
@@ -255,7 +255,7 @@ def create_journal_entry(entry):
     formatted_entry +=  entry["title"].replace("{","").replace("}","")
 
     # Journal 
-    formatted_entry += ". <i>" + entry["journal"] +  "</i>"
+    formatted_entry += ". <em>" + entry["journal"] +  "</em>"
 
     # Volume 
     try:
@@ -295,7 +295,7 @@ def create_proceedings_entry(entry):
     formatted_entry = "\n<li>"
 
     # Authors
-    formatted_entry += entry["author"].replace(" and ",", ")
+    formatted_entry += entry["author"]
 
     # Year
     try:
@@ -311,7 +311,7 @@ def create_proceedings_entry(entry):
     formatted_entry += " " + entry["title"].replace("{","").replace("}","")
 
     # Proceedings 
-    formatted_entry += ". <i>" + entry["booktitle"] +  "</i>. "
+    formatted_entry += ". <em>" + entry["booktitle"] +  "</em>. "
    
     # Address of conferences
     try:
@@ -334,7 +334,7 @@ def create_thesis_entry(entry):
     formatted_entry = "\n<li>"
 
     # Authors
-    formatted_entry += entry["author"].replace(" and ",", ")
+    formatted_entry += entry["author"]
 
     # Year
     try:
@@ -363,7 +363,7 @@ def create_misc_entry(entry):
     formatted_entry = "\n<li>"
 
     # Authors
-    formatted_entry += entry["author"].replace(" and ",", ")
+    formatted_entry += entry["author"]
 
     # Year
     try:
