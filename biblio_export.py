@@ -88,28 +88,28 @@ if (len(mislabeled) > 0):
 page = []
 
 # Journal papers
-page += ["<p class=\"lead\">Journal Papers</p>\n"]
+page += ["<h2 class=\"lead\">Journal Papers</h2>\n"]
 page += ["<ol>\n"]
 for journal_entry in journal_articles:
     page += create_journal_entry(journal_entry)
 page += ["</ol>\n"]
 
 # Conference proceedings
-page += ["<p class=\"lead\">Conference Proceedings</p>\n"]
+page += ["<h2 class=\"lead\">Conference Proceedings</h2>\n"]
 page += ["<ol>\n"]
 for conference_proceedings_entry in conference_proceedings:
     page += create_proceedings_entry(conference_proceedings_entry)
 page += ["</ol>\n"]
 
 # Theses
-page += ["<p class=\"lead\">Theses</p>\n"]
+page += ["<h2 class=\"lead\">Theses</h2>\n"]
 page += ["<ol>\n"]
 for theses_entry in theses:
     page += create_thesis_entry(theses_entry)
 page += ["</ol>\n"]
 
 # Misc
-page += ["<p class=\"lead\">Miscellaneous</p>\n"]
+page += ["<h2 class=\"lead\">Miscellaneous</h2>\n"]
 page += ["<ol>\n"]
 for misc_entry in misc:
     page += create_misc_entry(misc_entry)
