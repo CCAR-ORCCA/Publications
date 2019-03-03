@@ -119,6 +119,7 @@ page += ["</ol>\n"]
 print("ORCCA Publications count:\n")
 print ("\t" + str(len(conference_proceedings)) + " conference proceedings")
 print ("\t" + str(len(journal_articles)) + " journal articles")
+print ("\t" + str(len(theses)) + " theses")
 print ("\t" + str(len(misc)) + " miscellaneous entries")
 print ("\t" + str(len(mislabeled)) + " mislabeled entries")
 

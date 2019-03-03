@@ -168,10 +168,10 @@ def thesis_latex_entry_to_html_box(entry):
         None
 
     try:
-        string += "DOI = {" + entry["doi"] + "},<br />"
+        string += "URL = {" + entry["url"] + "},<br />"
     except KeyError:
         try:
-            string += "DOI = {" + entry["DOI"] + "},<br />"
+            string += "URL = {" + entry["url"] + "},<br />"
         except KeyError:
             None
 
