@@ -23,6 +23,7 @@
 
 import bibtexparser
 from bibtex_entries_defs import *
+from merge_bibfiles import *
 import glob, os
 
 
@@ -30,6 +31,7 @@ import glob, os
 # \name : biblio_export.py
 # \author : Benjamin Bercovici
 # \date : 02/10/19
+## modified by Kenshiro Oguri on Sept. 1, 2019
 # \brief : a python script that parses .bib
 # files to produce a structured HTML page 
 # listing the different publications sorted by type/year
@@ -49,27 +51,56 @@ misc = []
 mislabeled = []
 theses = []
 
-for file in glob.glob("*.bib"):
+
+### Added by Kenshiro Oguri
+### FROM HERE
+# Merge .bib files into a large .bib file
+mergedFileName = 'ORCCA_merged.bib'
+generate_merged_bibfile(mergedFileName)
+
+# Reading from the merged .bib file
+with open(mergedFileName) as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+
+# Put each publication in the correct category
+for entry in bib_database.entries:
+    if entry["ENTRYTYPE"] == "inproceedings":
+        conference_proceedings += [entry]
+    elif entry["ENTRYTYPE"] == "article":
+        journal_articles += [entry]
+    elif entry["ENTRYTYPE"] == "misc":
+        misc += [entry]
+    elif entry["ENTRYTYPE"] == "phdthesis":
+        theses += [entry]
+    else:
+        mislabeled += [entry]
+### TO HERE
+
+
+### Ben's original script that retrieves the entries from bibfiles
+### FROM HERE
+# for file in glob.glob("*.bib"):
     
-    # Reading from each of the .bib files that were found
-    with open(file) as bibtex_file:
-        bib_database = bibtexparser.load(bibtex_file)
+#     # Reading from each of the .bib files that were found
+#     with open(file) as bibtex_file:
+#         bib_database = bibtexparser.load(bibtex_file)
 
-    # Uncomment this to see the content of each bib file
-    # print (bib_database.entries)
+#     # Uncomment this to see the content of each bib file
+#     # print (bib_database.entries)
 
-    # Put each publication in the correct category
-    for entry in bib_database.entries:
-        if entry["ENTRYTYPE"] == "inproceedings":
-            conference_proceedings += [entry]
-        elif entry["ENTRYTYPE"] == "article":
-            journal_articles += [entry]
-        elif entry["ENTRYTYPE"] == "misc":
-            misc += [entry]
-        elif entry["ENTRYTYPE"] == "phdthesis":
-            theses += [entry]
-        else:
-            mislabeled += [entry]
+#     # Put each publication in the correct category
+#     for entry in bib_database.entries:
+#         if entry["ENTRYTYPE"] == "inproceedings":
+#             conference_proceedings += [entry]
+#         elif entry["ENTRYTYPE"] == "article":
+#             journal_articles += [entry]
+#         elif entry["ENTRYTYPE"] == "misc":
+#             misc += [entry]
+#         elif entry["ENTRYTYPE"] == "phdthesis":
+#             theses += [entry]
+#         else:
+#             mislabeled += [entry]
+### TO HERE
 
 # Sorting each publication type by year
 conference_proceedings = sorted(conference_proceedings, key = sort_by_year)[::-1] 
