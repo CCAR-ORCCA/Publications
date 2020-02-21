@@ -311,7 +311,10 @@ def create_proceedings_entry(entry):
     formatted_entry += " " + entry["title"].replace("{","").replace("}","")
 
     # Proceedings 
-    formatted_entry += ". <em>" + entry["booktitle"] +  "</em>. "
+    try:
+        formatted_entry += ". <em>" + entry["booktitle"] +  "</em>. "
+    except KeyError:
+        print ("No booktitle found in " + str(entry["ID"]))
    
     # Address of conferences
     try:
