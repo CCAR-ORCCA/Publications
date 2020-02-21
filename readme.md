@@ -1,5 +1,6 @@
-## how to merge the .bib files and publish .html file
+## How to merge the .bib files and publish .html file
 1. run biblio_export.py
+2. to be added more detail
 
 
 ## Note
