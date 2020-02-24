@@ -1,0 +1,19 @@
+
+J. Geeraert and J. McMahon, “Relative Orbit Determination of Multiple Satel- lites Using Double Differenced Measurements,” Advanced Maui Optical and Space Surveillance Technologies Conference (AMOS), Maui, HI, 2017.
+
+A. Dietrich and J. McMahon, “Filter Robustness of Flash Lidar Based Navi- gation Around Small Bodies,” AAS/AIAA Astrodynamics Specialist Conference, Stevenson, WA, 2017. Paper No. AAS 17-825
+
+A. Dietrich and J. McMahon, “Orbit Determination with Least-Squares and Flash LIDAR Measurements in Proximity to Small Bodies,” AAS/AIAA Space Flight Mechanics Meeting, San Antonio, TX, 2017. Paper No. AAS 17-276.
+
+J. Geeraert, J. McMahon, and S. Hesar, “Small Body Navigation and Grav- ity Estimation using Angle and FDOA Observables,” AAS/AIAA Space Flight Mechanics Meeting, San Antonio, TX, 2017. Paper No. AAS 17-230.
+
+J. Geeraert, J. McMahon, and B. Jones. “Orbit Determination Observability of the Dual-Satellite Geolocation System with TDOA and FDOA”, AIAA/AAS Astrodynamics Specialist Conference, AIAA SPACE Forum, 2016. Paper No. AIAA 2016-5367
+
+A. Dietrich, J. McMahon, “Error Sensitivities for Flash LIDAR Based Rela- tive Navigation Around Small Bodies,” AAS Guidance and Control Conference, Breckenridge, CO, 2016
+
+A. Dietrich, J. McMahon, “Autonomous Observation Planning with Flash LI- DAR around Small Bodies,” AAS/AIAA Astrodynamics Specialist Conference, Vail, CO, 2015. Paper No. AAS-2015-736
+
+J. Geeraert, B. Jones, J. McMahon, “Improving Geolocation Accuracy through Refined Satellite Ephemeris Estimation in an Ill-Conditioned System,” AAS/AIAA Astrodynamics Specialist Conference, Vail, CO, 2015. Paper No. AAS-2015-670
+
+A. Dietrich, J. McMahon, “Asteroid Proximity Navigation using Flash LIDAR,” AAS/AIAA Astrodynamics Specialist Conference, San Diego, CA, 2014. Paper No. AIAA-2014-4355
+
