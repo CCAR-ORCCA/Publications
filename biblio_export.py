@@ -120,28 +120,28 @@ page = []
 
 # Journal papers
 page += ["<h2 class=\"lead\">Journal Papers</h2>\n"]
-page += ["<ol>\n"]
+page += ["<ol reversed>\n"]
 for journal_entry in journal_articles:
     page += create_journal_entry(journal_entry)
 page += ["</ol>\n"]
 
 # Conference proceedings
 page += ["<h2 class=\"lead\">Conference Proceedings</h2>\n"]
-page += ["<ol>\n"]
+page += ["<ol reversed>\n"]
 for conference_proceedings_entry in conference_proceedings:
     page += create_proceedings_entry(conference_proceedings_entry)
 page += ["</ol>\n"]
 
 # Theses
 page += ["<h2 class=\"lead\">Theses</h2>\n"]
-page += ["<ol>\n"]
+page += ["<ol reversed>\n"]
 for theses_entry in theses:
     page += create_thesis_entry(theses_entry)
 page += ["</ol>\n"]
 
 # Misc
 page += ["<h2 class=\"lead\">Miscellaneous</h2>\n"]
-page += ["<ol>\n"]
+page += ["<ol reversed>\n"]
 for misc_entry in misc:
     page += create_misc_entry(misc_entry)
 page += ["</ol>\n"]
